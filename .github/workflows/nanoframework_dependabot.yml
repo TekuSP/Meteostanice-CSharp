@@ -27,7 +27,7 @@ jobs:
         uses: nuget/setup-nuget@v2.0.0
         with:
           nuget-version: '5.x'
-      - uses: nanoframework/nanodu@v1.0.23
+      - uses: nanoframework/nanodu@v1.0.24
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
